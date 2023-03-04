@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+main{
+   background-color: #9b59b6;
+   width:100%;
+   height:100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; /*align two rows one over the other*/
+ 
+}
+
+.row{
+    
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+#search{
+    padding:10px;
+ font-size: 25px;
+ border-radius: 25px;
+ border:none;
+ outline:none;
+
+}
